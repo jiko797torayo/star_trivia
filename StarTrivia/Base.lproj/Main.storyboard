@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Starjout.ttf">
+            <string>StarJediOutline</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Select PersonVC-->
         <scene sceneID="tne-QT-ifu">
@@ -21,13 +26,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space1" translatesAutoresizingMaskIntoConstraints="NO" id="Tk4-Ab-l9P">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Star Trivia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1iu-dP-dtG">
+                                <rect key="frame" x="20" y="108" width="374" height="80"/>
+                                <fontDescription key="fontDescription" name="StarJediOutline" family="Star Jedi Outline" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1iu-dP-dtG" secondAttribute="trailing" constant="20" id="CRd-IU-XPa"/>
                             <constraint firstAttribute="bottom" secondItem="Tk4-Ab-l9P" secondAttribute="bottom" id="EUo-Uv-crM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tk4-Ab-l9P" secondAttribute="trailing" id="I4Z-A8-KXZ"/>
                             <constraint firstItem="Tk4-Ab-l9P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JJt-yq-xsq"/>
+                            <constraint firstItem="1iu-dP-dtG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QtT-sb-O5S"/>
                             <constraint firstItem="Tk4-Ab-l9P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tNE-7A-muv"/>
+                            <constraint firstItem="1iu-dP-dtG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="yjA-6t-RfD"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
