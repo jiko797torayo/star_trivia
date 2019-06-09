@@ -15,6 +15,8 @@
 		EB2C983822AD2533005FF71C /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C983522AD2533005FF71C /* Starjhol.ttf */; };
 		EB2C983922AD2533005FF71C /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C983622AD2533005FF71C /* Starjout.ttf */; };
 		EB2C983A22AD2533005FF71C /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C983722AD2533005FF71C /* Starjedi.ttf */; };
+		EB2C984222AD4080005FF71C /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C984122AD4080005FF71C /* BlackBgView.swift */; };
+		EB2C984522AD4149005FF71C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C984422AD4149005FF71C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EB2C983522AD2533005FF71C /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
 		EB2C983622AD2533005FF71C /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
 		EB2C983722AD2533005FF71C /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		EB2C984122AD4080005FF71C /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		EB2C984422AD4149005FF71C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				EB2C983E22AD25DC005FF71C /* Controller */,
 				EB2C982322AD20F6005FF71C /* AppDelegate.swift */,
 				EB2C982522AD20F6005FF71C /* SelectPersonVC.swift */,
+				EB2C984322AD4115005FF71C /* Utils */,
 				EB2C983D22AD25A9005FF71C /* Resources */,
 				EB2C982722AD20F6005FF71C /* Main.storyboard */,
 				EB2C982A22AD20F8005FF71C /* Assets.xcassets */,
@@ -102,6 +107,7 @@
 		EB2C983F22AD25E9005FF71C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EB2C984122AD4080005FF71C /* BlackBgView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +117,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EB2C984322AD4115005FF71C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C984422AD4149005FF71C /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +203,8 @@
 			files = (
 				EB2C982622AD20F6005FF71C /* SelectPersonVC.swift in Sources */,
 				EB2C982422AD20F6005FF71C /* AppDelegate.swift in Sources */,
+				EB2C984222AD4080005FF71C /* BlackBgView.swift in Sources */,
+				EB2C984522AD4149005FF71C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
