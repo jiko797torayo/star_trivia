@@ -17,6 +17,8 @@
 		EB2C983A22AD2533005FF71C /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB2C983722AD2533005FF71C /* Starjedi.ttf */; };
 		EB2C984222AD4080005FF71C /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C984122AD4080005FF71C /* BlackBgView.swift */; };
 		EB2C984522AD4149005FF71C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C984422AD4149005FF71C /* Constants.swift */; };
+		EB2C984822AEFDED005FF71C /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C984722AEFDED005FF71C /* PersonAPI.swift */; };
+		EB2C984A22AFD467005FF71C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C984922AFD467005FF71C /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		EB2C983722AD2533005FF71C /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
 		EB2C984122AD4080005FF71C /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
 		EB2C984422AD4149005FF71C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EB2C984722AEFDED005FF71C /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
+		EB2C984922AFD467005FF71C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				EB2C983E22AD25DC005FF71C /* Controller */,
 				EB2C982322AD20F6005FF71C /* AppDelegate.swift */,
 				EB2C982522AD20F6005FF71C /* SelectPersonVC.swift */,
+				EB2C984622AEFDB6005FF71C /* Services */,
 				EB2C984322AD4115005FF71C /* Utils */,
 				EB2C983D22AD25A9005FF71C /* Resources */,
 				EB2C982722AD20F6005FF71C /* Main.storyboard */,
@@ -115,6 +120,7 @@
 		EB2C984022AD25FD005FF71C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EB2C984922AFD467005FF71C /* Person.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -125,6 +131,14 @@
 				EB2C984422AD4149005FF71C /* Constants.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		EB2C984622AEFDB6005FF71C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C984722AEFDED005FF71C /* PersonAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,9 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2C984A22AFD467005FF71C /* Person.swift in Sources */,
 				EB2C982622AD20F6005FF71C /* SelectPersonVC.swift in Sources */,
 				EB2C982422AD20F6005FF71C /* AppDelegate.swift in Sources */,
 				EB2C984222AD4080005FF71C /* BlackBgView.swift in Sources */,
+				EB2C984822AEFDED005FF71C /* PersonAPI.swift in Sources */,
 				EB2C984522AD4149005FF71C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

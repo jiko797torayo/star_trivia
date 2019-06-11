@@ -203,6 +203,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="2uL-2F-3Cd"/>
+                    <connections>
+                        <outlet property="birthYearLbl" destination="w6P-n1-hT5" id="3sB-yk-KqV"/>
+                        <outlet property="genderLbl" destination="20w-gJ-8t9" id="sRQ-NO-TgH"/>
+                        <outlet property="hairLbl" destination="3T5-Nc-KbL" id="yUl-7y-wsH"/>
+                        <outlet property="heigthLbl" destination="IDV-lo-UHl" id="efK-3L-1ZL"/>
+                        <outlet property="massLbl" destination="ebQ-Cc-3X0" id="yeu-be-f2o"/>
+                        <outlet property="nameLbl" destination="HZD-vh-eXw" id="XvA-k2-C7M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
