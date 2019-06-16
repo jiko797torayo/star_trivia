@@ -25,6 +25,8 @@
 		EB3DD18822B62CE700FA742E /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3DD18722B62CE700FA742E /* VehiclesVC.swift */; };
 		EB3DD18A22B62D0600FA742E /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3DD18922B62D0600FA742E /* StarshipsVC.swift */; };
 		EB3DD18C22B62D1B00FA742E /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3DD18B22B62D1B00FA742E /* FilmsVC.swift */; };
+		EB3DD18E22B6654C00FA742E /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3DD18D22B6654C00FA742E /* Homeworld.swift */; };
+		EB3DD19022B665E300FA742E /* HomeworldAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3DD18F22B665E300FA742E /* HomeworldAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		EB3DD18722B62CE700FA742E /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
 		EB3DD18922B62D0600FA742E /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
 		EB3DD18B22B62D1B00FA742E /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
+		EB3DD18D22B6654C00FA742E /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		EB3DD18F22B665E300FA742E /* HomeworldAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				EB2C984922AFD467005FF71C /* Person.swift */,
+				EB3DD18D22B6654C00FA742E /* Homeworld.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				EB2C984722AEFDED005FF71C /* PersonAPI.swift */,
+				EB3DD18F22B665E300FA742E /* HomeworldAPI.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -295,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB3DD18422B625A300FA742E /* FadeEnabledBtn.swift in Sources */,
+				EB3DD19022B665E300FA742E /* HomeworldAPI.swift in Sources */,
 				EB2C984A22AFD467005FF71C /* Person.swift in Sources */,
 				EB3DD18A22B62D0600FA742E /* StarshipsVC.swift in Sources */,
+				EB3DD18E22B6654C00FA742E /* Homeworld.swift in Sources */,
 				EB3DD18822B62CE700FA742E /* VehiclesVC.swift in Sources */,
 				EB2C982622AD20F6005FF71C /* SelectPersonVC.swift in Sources */,
 				EB2C982422AD20F6005FF71C /* AppDelegate.swift in Sources */,
